@@ -142,7 +142,8 @@ Tras la etapa de investigación hemos detectado que nuestros principales perfile
 Gracias a las encuestas realizadas podemos fragmentar el perfil de alumnos diferenciando entre alumnos que tienen dificultad para gestionar su tiempo libre y alumnos eficientes en este ámbito.
 
       - Buenos gestores del tiempo: Son alumnos que ya tienen una base sólida en la gestión de su tiempo y estimación de prioridades, por norma general son alumnos que ya tienen calificaciones de corte medio-alto, sin embargo su perspectiva de mejora les hace querer pulir aún más sus habilidades.
-      - Malos gestores del tiempo: Son los alumnos que no organizan las actividades o no cumplen con los tiempos establecidos y dejan la realización de las tareas/estudios para los últimos días. Son conscientes de que su rendimiento no es óptimo y están interesados en mejorar.
+
+     - Malos gestores del tiempo: Son los alumnos que no organizan las actividades o no cumplen con los tiempos establecidos y dejan la realización de las tareas/estudios para los últimos días. Son conscientes de que su rendimiento no es óptimo y están interesados en mejorar.
 
   + Profesores
 
@@ -154,15 +155,15 @@ El consumo principal de el usuario “profesor” es la información recogida po
 
 Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuestas y entrevistas que representan en su amplia mayoría la audiencia principal de la aplicación.
 
-![alumno 1]()
+![alumno 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/m    ain/imagenes/p1.png)
 
-![alumno 2]()
+![alumno 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/m    ain/imagenes/p2.png)
 
-![alumno 3]()
+![alumno 3](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/m    ain/imagenes/p3.png)
 
-![alumno 4]()
+![alumno 4](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/m    ain/imagenes/p4.png)
 
-![profesor]()
+![profesor](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/m    ain/imagenes/p5.png)
 
  + Contextos
 
