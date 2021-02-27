@@ -27,60 +27,60 @@
 
 -Peticiones de css:
 
-![imagen 2](imagenes/Imagen2.png)
+![imagen 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen2.png)
 
 -Peticiones de imágenes:
 
-![imagen 3](imagenes/Imagen3.png)
+![imagen 3](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen3.png)
 
 -Peticiones de js:
 
-![imagen 4](imagenes/Imagen4.png)
+![imagen 4](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen4.png)
 
 
 #### 2. ¿Qué tipo de petición estás realizando?
 
-![imagen 5](imagenes/Imagen5.png)
+![imagen 5](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen5.png)
 
 
 #### 3. ¿Qué código de estatus devuelve?
 
-![imagen 6](imagenes/Imagen6.png)
+![imagen 6](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen6.png)
 
 
 #### 4. ¿Qué DNS tiene el servidor?
 
-![imagen 7](imagenes/Imagen7.png)
+![imagen 7](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen7.png)
 
 
 #### 5. ¿Qué IP tiene tiene el servidor?
 
-![imagen 8](imagenes/Imagen8.png)
+![imagen 8](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen8png)
 
 
 #### 6. ¿La página tiene alguna cookie?, ¿Cuáles?
 
-![imagen 9](imagenes/Imagen9.png)
+![imagen 9](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen9png)
 
 
 #### 7. ¿Qué idioma acepta?
 
-![imagen 10](imagenes/Imagen10.png)
+![imagen 10](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen10.png)
 
 
 #### 8. Alguna línea de código JavaScript.
 
-![imagen 11](imagenes/Imagen11.png)
+![imagen 11](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen11.png)
 
 
 #### 9. Alguna línea de código CSS que se aplique.
 
-![imagen 12](imagenes/Imagen12.png)
+![imagen 12](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen12.png)
 
 
 #### 10. Alguna línea de código HTML que se aplique
 
-![imagen 13](imagenes/Imagen13.png)
+![imagen 13](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen13.png)
 
 
 
