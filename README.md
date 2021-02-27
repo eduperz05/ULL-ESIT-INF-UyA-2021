@@ -13,7 +13,7 @@
 + Ainoa Iglesias Dasilva, [alu0101164403@ull.edu.es](alu0101164403@ull.edu.es)
 
 
-Página del Repositorio: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/Introduccion HTML/UYAHTMl1]
+Página del Repositorio: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/Introduccion%20HTML/UYAHTMl1]
 
 Página de introducción al HTML: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/
 
