@@ -1,5 +1,5 @@
 
-[ULL](imagenes/Logo_Universidad_LaLaguna.png)
+![ULL](imagenes/Logo_Universidad_LaLaguna.png)
 
 #Usabilidad y Accesibilidad 
 
