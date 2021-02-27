@@ -29,47 +29,47 @@
 
 #### 2. ¿Qué tipo de petición estás realizando?
 
-
+![imagen 5](imagenes/Imagen5.png)
 
 
 #### 3. ¿Qué código de estatus devuelve?
 
-
+![imagen 6](imagenes/Imagen6.png)
 
 
 #### 4. ¿Qué DNS tiene el servidor?
 
-[imagen 4]()
+![imagen 7](imagenes/Imagen7.png)
 
 
 #### 5. ¿Qué IP tiene tiene el servidor?
 
-[imagen 5]()
+![imagen 8](imagenes/Imagen8.png)
 
 
 #### 6. ¿La página tiene alguna cookie?, ¿Cuáles?
 
-[imagen 6]()
+![imagen 9](imagenes/Imagen9.png)
 
 
 #### 7. ¿Qué idioma acepta?
 
-[imagen 7]()
+![imagen 10](imagenes/Imagen10.png)
 
 
 #### 8. Alguna línea de código JavaScript.
 
-[imagen 8]()
+![imagen 11](imagenes/Imagen11.png)
 
 
 #### 9. Alguna línea de código CSS que se aplique.
 
-[imagen 9]()
+![imagen 12](imagenes/Imagen12.png)
 
 
 #### 10. Alguna línea de código HTML que se aplique
 
-[imagen 10]()
+![imagen 1](imagenes/Imagen1.png)
 
 
 
