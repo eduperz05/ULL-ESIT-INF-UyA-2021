@@ -1,19 +1,21 @@
 # ULL-ESIT-INF-UyA-2021
 
-# **USABILIDAD Y ACCESIBILIDAD**
 ## SEMINARIO DCU - GRUPO 13
 
 ##### INTEGRANTES
 
-Eduardo Pérez Suárez, [alu0100890174@ull.edu.es](alu0100890174@ull.edu.es)
++ Eduardo Pérez Suárez, [alu0100890174@ull.edu.es](alu0100890174@ull.edu.es)
 
-David Lázaro Febles, [alu0100770032@ull.edu.es](alu0100770032@ull.edu.es)
++ David Lázaro Febles, [alu0100770032@ull.edu.es](alu0100770032@ull.edu.es)
 
-Maria Elena Salazar Álvarez, [alu0100965902@ull.edu.es](alu0100965902@ull.edu.es)
++ Maria Elena Salazar Álvarez, [alu0100965902@ull.edu.es](alu0100965902@ull.edu.es)
 
-Ainoa Iglesias Dasilva, [alu0101164403@ull.edu.es](alu0101164403@ull.edu.es)
++ Ainoa Iglesias Dasilva, [alu0101164403@ull.edu.es](alu0101164403@ull.edu.es)
 
-1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU y en qué fase del diseño se ubica.
+
+
+
+##### *1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU y en qué fase del diseño se ubica.*
 
 El ejemplo propuesto de aplicación de DCU para el seminario se encuentra dividido en varios puntos principales:
 
@@ -37,7 +39,7 @@ El ejemplo propuesto de aplicación de DCU para el seminario se encuentra dividi
  
 La fase del diseño del documento de ejemplo se encuentra en Evaluación ya que terminaron el prototipo y comenzaron con las evaluaciones, los test de usuarios para observar cómo interactúan con el prototipo.
  
-2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio de un estudiante del Grado en Ingeniería Informática de la ULL.
+##### *2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio de un estudiante del Grado en Ingeniería Informática de la ULL.*
  
 ##### INVESTIGACIÓN
  
@@ -133,25 +135,19 @@ Efectuamos una búsqueda de aplicaciones de usos similares con la finalidad de c
 
 #### DISEÑO CONCEPTUAL
 
-+ Perfil de usuario
+1. Perfil de usuario
 
 Tras la etapa de investigación hemos detectado que nuestros principales perfiles de usuario se pueden agrupar en alumnos y profesores.
 
-   + Alumnos
+   + Alumnos: Gracias a las encuestas realizadas podemos fragmentar el perfil de alumnos diferenciando entre alumnos que tienen dificultad para gestionar su tiempo libre y alumnos eficientes en este ámbito.
 
-Gracias a las encuestas realizadas podemos fragmentar el perfil de alumnos diferenciando entre alumnos que tienen dificultad para gestionar su tiempo libre y alumnos eficientes en este ámbito.
+      - Buenos gestores del tiempo: Son alumnos que ya tienen una base sólida en la gestión de su tiempo y estimación de prioridades, por norma general son alumnos que ya tienen calificaciones de corte medio-alto, sin embargo su perspectiva de mejora les hace querer pulir aún más sus habilidades.
 
-    - Buenos gestores del tiempo: Son alumnos que ya tienen una base sólida en la gestión de su tiempo y estimación de prioridades, por norma general son alumnos que ya tienen calificaciones de corte medio-alto, sin embargo su perspectiva de mejora les hace querer pulir aún más sus habilidades.
+      - Malos gestores del tiempo: Son los alumnos que no organizan las actividades o no cumplen con los tiempos establecidos y dejan la realización de las tareas/estudios para los últimos días. Son conscientes de que su rendimiento no es óptimo y están interesados en mejorar.
 
-    - Malos gestores del tiempo: Son los alumnos que no organizan las actividades o no cumplen con los tiempos establecidos y dejan la realización de las tareas/estudios para los últimos días. Son conscientes de que su rendimiento no es óptimo y están interesados en mejorar.
+  + Profesores: Este perfil de usuario busca aprovechar la mayoría de los recursos que ofrecerá nuestra aplicación, su motivación y priorizar la mejora en su rendimiento académico así como mejorar su gestión del tiempo para ser más eficiente. El consumo principal del usuario “profesor” es la información recogida por la aplicación para adaptar mejor sus métricas de trabajo además de la retroalimentación de información para los perfiles de usuario “alumno”.
 
-  + Profesores
-
-Este perfil de usuario busca aprovechar la mayoría de los recursos que ofrecerá nuestra aplicación, su motivación y priorizar la mejora en su rendimiento académico así como mejorar su gestión del tiempo para ser más eficiente.
-
-El consumo principal de el usuario “profesor” es la información recogida por la aplicación para adaptar mejor sus métricas de trabajo además de la retroalimentación de información para los perfiles de usuario “alumno”.
-
-  + Personajes
+2. Personajes
 
 Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuestas y entrevistas que representan en su amplia mayoría la audiencia principal de la aplicación.
 
@@ -165,7 +161,7 @@ Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuesta
 
 ![profesor](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p5.png)
 
- + Contextos
+3. Contextos
 
 Con nuestra app los usuarios podrán:
 
@@ -178,3 +174,39 @@ Con nuestra app los usuarios podrán:
    -  La persona 4, usará la app para crear un horario muy bien organizado de forma que dedique tiempo tanto al estudio como a sus actividades personales.
 
    -  La persona 5 tendrá acceso a datos como el tiempo de estudio de los alumnos, la carga de trabajo de estos, tiempos que dedican a las tareas… y con ello podrá organizar mejor sus actividades.
+
+#### Requisitos
+
+El proceso de observación y benchmarking nos ha permitido identificar los principales requerimientos que debe seguir el desarrollo de nuestra aplicación. Gracias a la implicación de los usuarios en el proceso de investigación por medio de entrevistas y encuestas hemos concretado qué funcionalidades y requisitos son indispensables, cuales son secundarios y cuales innecesarios.
+
+Los requisitos recogidos son los siguientes:
+
+   - Permitir organizar las actividades por mes, semana o día
+
+   - Visualización de las tareas en un cronograma personalizable
+
+   - Permitir a través de una tarea la comunicación con el profesorado, mandar correos, poder solicitar tutorías
+
+   - Acceder al campus virtual
+
+   - Añadir recordatorios de cuando debe realizar una tarea y cuántos días faltan para las entregas
+
+   - Establecer y controlar los descansos
+
+   - Establecer metas y recompensas
+
+   - Permitir bloquear aplicaciones
+
+   - Estadísticas para conocer el rendimiento de los estudiantes en las tareas/estudios, por ejemplo el tiempo que le han dedicado
+
+   - Permitir a los profesores organizar las tareas por prioridad
+
+   - Permitir tener un calendario en común con los compañeros y poder sincronizarlo con el personal
+
+   - Permitir dictado de voz
+
+   - Adaptar el tamaño de visualización del prototipo
+
+   - Permitir la lectura en voz alta del contenido textual de un sitio web
+
+
