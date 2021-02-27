@@ -55,12 +55,12 @@
 
 #### 5. ¿Qué IP tiene tiene el servidor?
 
-![imagen 8](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen8png)
+![imagen 8](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen8.png)
 
 
 #### 6. ¿La página tiene alguna cookie?, ¿Cuáles?
 
-![imagen 9](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen9png)
+![imagen 9](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen9.png)
 
 
 #### 7. ¿Qué idioma acepta?
