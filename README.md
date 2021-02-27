@@ -43,7 +43,7 @@ La fase del diseño del documento de ejemplo se encuentra en Evaluación ya que 
  
 ##### INVESTIGACIÓN
  
-Observación: observación del usuario en su entorno habitual
+##### Observación: observación del usuario en su entorno habitual
  
 Si queremos lograr ayudar a los alumnos y profesores que usen nuestra plataforma tenemos que entender, colaborar y ofrecer soluciones factibles a sus problemas de la forma más cómoda posible para ellos como usuario.
  
@@ -65,7 +65,7 @@ A este proceso se le denomina DCU: Diseño Centrado en el Usuario, crearemos una
 
 + Entrevistas en profundidad: Información cualitativa, muestras pequeñas y relevantes a partir de reuniones unipersonales. Nos reuniremos con los usuarios de forma individual y les pasaremos un formulario que iremos puliendo según la información que saquemos también de forma informal tras conversar con ellos sobre las cuestiones de gestión del tiempo.
 
-Preguntas de las entrevistas en profundidad
+##### Preguntas de las entrevistas en profundidad
 
   - ¿Cuándo planifican las horas que le van a destinar a las tareas/estudios?
 
@@ -91,7 +91,7 @@ Preguntas de las entrevistas en profundidad
 
 + Encuestas: Realizamos una encuesta para los usuarios con perfil de alumno para conocer su opinión sobre este tipo de aplicaciones, conocer sus necesidad es como usuarios e identificar qué funcionalidades necesitaremos implementar en nuestra aplicación.
 
- Preguntas de la encuesta
+##### Preguntas de la encuesta
 
    - ¿Qué edad tienes?
 
@@ -121,13 +121,13 @@ Preguntas de las entrevistas en profundidad
 
 [Encuesta realizada](https://forms.gle/y2YWdm8D7u1qunFJ8)
 
-+ Logs
+##### + Logs
 
 Las técnicas de registro informático se basan en la monitorización de la actividad de los usuarios y consisten en recoger y analizar los datos del registr o de su actividad en un sistema o sitio web. Normalmente, la recogida y procesado de los datos se lleva a cabo mediante un sistema automatizado, que pasa desapercibido al usuario. Muchas veces se aprovechan los propios ficheros de registro de actividad del sistema. Tradicionalmente, estos ficheros tienen la extensión log, y de ahí toman el nombre en inglés de estas técnicas.
 
 En nuestro caso, nos encontramos en la etapa de desarrollo por lo que partiremos de las métricas recogidas a partir de las respuestas de los potenciales usuarios a nuestros formularios.
 
-+ Benchmarking
+##### + Benchmarking
 
 El análisis competitivo o análisis comparativo consiste en analizar productos que son similares y/o que compiten con el sistema interactivo que se está diseñando. Los objetivos de analizar dichos productos o servicios son múltiples: conocer las expectativas de los usuarios, entender las tendencias del mercado, aprender de los errores pero también de lo que funciona, conocer las funcionalidades básicas o comunes, estudiar las interfaces, etc.
 
@@ -135,7 +135,7 @@ Efectuamos una búsqueda de aplicaciones de usos similares con la finalidad de c
 
 #### DISEÑO CONCEPTUAL
 
-1. Perfil de usuario
+##### 1. Perfil de usuario
 
 Tras la etapa de investigación hemos detectado que nuestros principales perfiles de usuario se pueden agrupar en alumnos y profesores.
 
@@ -147,7 +147,7 @@ Tras la etapa de investigación hemos detectado que nuestros principales perfile
 
   + Profesores: Este perfil de usuario busca aprovechar la mayoría de los recursos que ofrecerá nuestra aplicación, su motivación y priorizar la mejora en su rendimiento académico así como mejorar su gestión del tiempo para ser más eficiente. El consumo principal del usuario “profesor” es la información recogida por la aplicación para adaptar mejor sus métricas de trabajo además de la retroalimentación de información para los perfiles de usuario “alumno”.
 
-2. Personajes
+##### 2. Personajes
 
 Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuestas y entrevistas que representan en su amplia mayoría la audiencia principal de la aplicación.
 
@@ -161,7 +161,7 @@ Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuesta
 
 ![profesor](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p5.png)
 
-3. Contextos
+##### 3. Contextos
 
 Con nuestra app los usuarios podrán:
 
