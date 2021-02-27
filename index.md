@@ -153,7 +153,7 @@ Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuesta
 
 ![alumno 1](https://i.imgur.com/5EUbDEx.png)
 
-![alumno 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p2.png)
+![alumno 2](imagenes/p2.png)
 
 ![alumno 3](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p3.png)
 
