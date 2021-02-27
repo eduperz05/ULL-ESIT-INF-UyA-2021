@@ -24,7 +24,7 @@
 
 -Peticiones de js:
 
-![imagen 4](imagenes/Imagen4.png)
+![imagen 15](imagenes/Imagen15.png)
 
 
 #### 2. ¿Qué tipo de petición estás realizando?
