@@ -16,7 +16,7 @@
 
 -Peticiones de css:
 
-[imagen 2](ULL-ESIT-INF-UyA-2021/Uso del navegador para el desarrollo web/imagenes/Imagen2.png)
+[imagen 2](Uso del navegador para el desarrollo web/imagenes/Imagen2.png)
 
 -Peticiones de imágenes:
 
