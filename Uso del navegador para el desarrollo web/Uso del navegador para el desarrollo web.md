@@ -11,13 +11,21 @@
 
 #### 1. ¿Qué peticiones desencadena la consulta?
 -Peticiones de html:
+
 [imagen 1](Imagen1.png)
-Peticiones de css:
+
+-Peticiones de css:
+
 [imagen 2](Imagen2.png)
-Peticiones de imágenes:
+
+-Peticiones de imágenes:
+
 [imagen 3](Imagen3.png)
-Peticiones de js:
+
+-Peticiones de js:
+
 [imagen 4](Imagen4.png)
+
 
 #### 2. ¿Qué tipo de petición estás realizando?
 
