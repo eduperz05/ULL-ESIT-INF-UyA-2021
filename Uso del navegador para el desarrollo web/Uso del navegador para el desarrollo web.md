@@ -23,7 +23,7 @@
 #### 1. ¿Qué peticiones desencadena la consulta?
 -Peticiones de html:
 
-![imagen 1](imagenes/Imagen1.png)
+![imagen 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web/imagenes/Imagen1.png)
 
 -Peticiones de css:
 
