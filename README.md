@@ -13,7 +13,9 @@
 + Ainoa Iglesias Dasilva, [alu0101164403@ull.edu.es](alu0101164403@ull.edu.es)
 
 
-Página del Repositorio: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/]
+Página del Repositorio: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/Introduccion HTML/UYAHTMl1]
+
+Página de introducción al HTML: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/
 
 ##### *1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU y en qué fase del diseño se ubica.*
 
