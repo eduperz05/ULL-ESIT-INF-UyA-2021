@@ -151,15 +151,15 @@ Tras la etapa de investigación hemos detectado que nuestros principales perfile
 
 Nuestros personajes son arquetipos reales de usuarios elegidos mediante encuestas y entrevistas que representan en su amplia mayoría la audiencia principal de la aplicación.
 
-![alumno 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p1.png)
+![alumno 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/imagenes/p1.png)
 
-![alumno 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p2.png)
+![alumno 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/imagenes/p2.png)
 
-![alumno 3](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p3.png)
+![alumno 3](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/imagenes/p3.png)
 
-![alumno 4](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p4.png)
+![alumno 4](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/imagenes/p4.png)
 
-![profesor](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/imagenes/p5.png)
+![profesor](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/imagenes/p5.png)
 
 ##### 3. Contextos
 
