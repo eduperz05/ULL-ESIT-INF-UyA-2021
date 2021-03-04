@@ -16,7 +16,7 @@
 Página del Repositorio: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/]
 
 ##### Seminario 1: DCU 
-[Seminario 1]()
+[Seminario 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/README.md)
 
 ##### Seminario 2: Uso de la web por personas con disfuncionalidad
 [Seminario 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%202%20Uso%20de%20la%20web%20por%20personas%20con%20disfuncionalidad/Uso%20de%20la%20web%20por%20personas%20con%20disfuncionalidad.md)
