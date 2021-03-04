@@ -13,7 +13,7 @@
 + Ainoa Iglesias Dasilva, [alu0101164403@ull.edu.es](alu0101164403@ull.edu.es)
 
 
-Página del Repositorio: [https://educande05.github.io/ULL-ESIT-INF-UyA-2021/]
+Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-2021/)
 
 ##### Seminario 1: DCU 
 [Seminario 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%201%20DCU/README.md)
