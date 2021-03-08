@@ -1,0 +1,80 @@
+body{
+font-family:Arial;
+font-size:1.5em;
+width:770px;
+margin-left:30%;
+margin-right:30%;
+margin-top:2%;
+margin-bottom:10%;
+}
+
+#lateral{
+width:150px;
+box-sizing: content-box;
+display:block;
+float:left;
+margin-bottom:0.7em;
+border-radius:0.5em;
+}
+
+#navegacion{
+position: static;
+margin:auto;
+float:left;
+background-color:rgb(194,194,194);
+
+}
+#navegacion.a{margin-left:10px;}
+
+table.default td{
+padding: .2em .8em;
+border: 1px solid rgba(16,76,167,.25);
+background: rgba(90,156,255,.25);
+text-align: left;
+
+}
+td a:visited{
+	color:green;
+}
+td a{
+	color:green;
+}
+p{
+	padding-top:0.5em;
+}
+h1{
+	text-align: center;
+}
+
+#principal{
+	width:430px;
+	float:left;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.link:hover{
+	color:red;
+}
+
+.h:hover {
+   color: red;
+   background-color: #f0efed;
+}
+
+a:visited {
+  color: blue;
+}
+#enlaces{
+	width:100px;
+	float:left;
+}
+#pie{
+	float:left;
+}
+#cabecera{
+	height:100px;
+	background-image:url("cabecera.jpg");
+	float:left;
+}
+ol {list-style-type: circle;}
