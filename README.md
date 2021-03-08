@@ -21,8 +21,13 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 ##### Seminario 2: Uso de la web por personas con disfuncionalidad
 [Seminario 2](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%202%20Uso%20de%20la%20web%20por%20personas%20con%20disfuncionalidad/Uso%20de%20la%20web%20por%20personas%20con%20disfuncionalidad.md)
 
+##### Seminario 3: Legislación accesibilidad
+[Seminario 3](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%203%20Legislaci%C3%B3n%20Accesibilidad/LEGISLACI%C3%93N%20ACCESIBILIDAD.pdf)
+
 
 ##### Práctica 1: Desarrollo web
 [Uso del navegador para el desarrollo web](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1ctica%201/Uso%20del%20navegador%20para%20el%20desarrollo%20web/Uso%20del%20navegador%20para%20el%20desarrollo%20web.md)
 
 [Página HTML](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1ctica%201/Introduccion%20HTML/index.html)
+
+[CSS](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1ctica%201/Introducci%C3%B3n%20a%20CSS)
