@@ -9,20 +9,20 @@ body{
 	margin-bottom:10%;
 }
 
-#navegacion {
+#navegacion { 
 	height: 100px;
 	margin: auto;
 	text-align: center;
 	background-image:url("cabecera.jpg");
 }
 
-.nav{
+#navegacion a{ /* poner #navegacion a y quitar las clases de a */
 	position: relative;
 	top: 30px;
-	color:red;
+	color:blue;
 }
 
-.nav:hover {
+#navegacion a:hover {
 	color:red;
 }
 
@@ -30,7 +30,7 @@ body{
 	width:430px;
 	float:left;
 	text-align: justify;
-  text-justify: inter-word;
+	text-justify: inter-word;
 }
 
 .foto {
@@ -52,9 +52,26 @@ body{
 	float: right;
 }
 
+#contenido_secundario a:hover {
+	color: red;
+	background-color: #f0efed;
+ } 
+
 #pie{
 	float:left;
 	margin-top: 0.5em;
+}
+
+#pie a:hover {
+	color:red;
+}
+
+a:hover {
+	color:red;
+}
+
+h3 a:hover {
+	color:red;
 }
 
 .default td {
@@ -78,15 +95,6 @@ p {
 
 h1 {
 	text-align: center;
-}
-
-.link:hover {
-	color:red;
-}
-
-.h:hover {
-   color: red;
-   background-color: #f0efed;
 }
 
 a:visited {
