@@ -1,22 +1,24 @@
 body{
-	font-family:Arial;
-	font-size:1.5em;
+	font-family: Arial;
+	font-size: 1.5em;
 	color: black;
-	width:770px;
-	margin-left:30%;
-	margin-right:30%;
-	margin-top:2%;
-	margin-bottom:10%;
+	width: 770px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 2%;
+	margin-bottom: 10%;
 }
 
 #navegacion { 
 	height: 100px;
 	margin: auto;
 	text-align: center;
+	padding: 0.3em;
+	margin-bottom: 0.7em;
 	background-image:url("cabecera.jpg");
 }
 
-#navegacion a{ /* poner #navegacion a y quitar las clases de a */
+#navegacion a{ 
 	position: relative;
 	top: 30px;
 	color:blue;
@@ -24,6 +26,7 @@ body{
 
 #navegacion a:hover {
 	color:red;
+	background-color: #f0efed;
 }
 
 #principal {
@@ -36,11 +39,12 @@ body{
 .foto {
 	display:block;
 	margin: auto;
-	margin-bottom:0.7em;
+	margin-bottom:0.5em;
 }
 
 #contenido_secundario {
-	width:150px;
+	padding-left:25px;
+	width:170px;
 	float: left;
 	margin-bottom:0.7em;
 	border-radius:0.5em;
@@ -52,12 +56,17 @@ body{
 	float: right;
 }
 
-#contenido_secundario a:hover {
+#lateral_derecho a:hover {
 	color: red;
-	background-color: #f0efed;
+ } 
+
+#contenido_secundario a:hover {
+	
+	color: red;
  } 
 
 #pie{
+	padding-top:50px;
 	float:left;
 	margin-top: 0.5em;
 }
@@ -75,7 +84,7 @@ h3 a:hover {
 }
 
 .default td {
-	padding: .2em .8em;
+	padding: 0.2em 0.8em;
 	border: 1px solid rgba(16,76,167,.25);
 	background: rgba(90,156,255,.25);
 	text-align: left;
@@ -97,10 +106,24 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+}
+
 a:visited {
   color: blue;
 }
 
 ol {
-	list-style-type: circle;
+	list-style-type: disc;
+}
+
+#menu {
+	padding: 0.3em;
+	margin-bottom: 0.7em;
+}
+article{
+	display:block;
+	float:right;
+	margin-left:12px:
 }
