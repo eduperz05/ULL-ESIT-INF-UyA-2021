@@ -28,12 +28,12 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 [Seminario 4](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminario%204%20Perceptible/Seminario%20perceptible.pdf)
 
 
-##### Práctica Desarrollo web
-[Uso del navegador para el desarrollo web](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1ctica%201/Uso%20del%20navegador%20para%20el%20desarrollo%20web/Uso%20del%20navegador%20para%20el%20desarrollo%20web.md)
+##### Prácticas Desarrollo web
 
-##### Práctica Materializa
-[Materialize](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1cticas/Materialize)
+[Uso del navegador para el desarrollo web](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1ctica%201/Uso%20del%20navegador%20para%20el%20desarrollo%20web/Uso%20del%20navegador%20para%20el%20desarrollo%20web.md)
 
 [Página HTML](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1ctica%201/Introduccion%20HTML/index.html)
 
 [CSS](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1ctica%201/Introducci%C3%B3n%20a%20CSS)
+
+[Materialize](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1cticas/Materialize)
