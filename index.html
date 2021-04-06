@@ -1,71 +1,303 @@
-<!doctype HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Pagina de prueba para la practica 1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Introduccion a JavaScript</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body align="center">
+<body>
+  <nav class="purple darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img height="30px" src="logo.png"></img></a>
+      
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h3 class="header center purple-text">Introduce un texto para mostrar</h3>
+      <div class="row center">
+         <form class="col s4 center push-s4">
+			  <div class="row center">
+				<div class="input-field">
+				  <textarea id="textarea1" class="materialize-textarea"></textarea>
+				  <label for="textarea1">Texto a actualizar</label>
+				</div>
+			</div>
+		</form>
+      </div>
+      <div class="row center" id="mostrar">
+        <a href="javascript:muestra()" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Actualizar</a>
+      </div>
+	  
+	  <div class="row">
+    <div class="col s4 center push-s4"  id="texto">
+      <div class="card-panel purple darken-3" id="salida">
+        <span class="white-text">
+        </span>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+	  <div class="col s12">
+          <div class="icon-block">
+            <h2 class="center purple-text text-darken-3"><i class="material-icons">check</i></h2>
+            <h5 class="center">Manejo de JSON</h5>
+			 <p class="light center">Es requisito porque el navegador no accede a los datos locales.</p>
+          </div>
+        </div>
+       <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center purple-text text-darken-3"><i class="material-icons">person</i></h2>
+            <h5 class="center">María</h5>
+			 <p class="light"> 
+			 <table>
+				<tbody>
+				  <tr>
+					<td>DNI</td>
+					<td>02302823V</td>
+				  </tr>
+				  <tr>
+					<td>Año de nacimiento</td>
+					<td>2000</td>
+				  </tr>
+				  <tr>
+					<td>Fecha de ingreso en la empresa</td>
+					<td>2020</td>
+				  </tr>
+				  <tr>
+					<td>Plus de productividad </td>
+					<td>5%</td>
+				  </tr> 
+				  <tr>
+				  <tr>
+					<td>Plus de antiguedad </td>
+					<td>0%</td>
+				  </tr> 
+				  <tr>
+					<td>Sueldo base </td>
+					<td>1800€</td>
+				  </tr>
+				  <tr class="datos">
+					<td>Edad </td>
+					<td class="purple lighten-2" id="edadmaria">1800€</td>
+				  </tr>
+				  <tr class="datos">
+					<td>Sueldo </td>
+					<td class="purple lighten-2" id="sueldomaria">1800€</td>
+				  </tr>
+				</tbody>
+			</table>
+	  </p>
+          </div>
+        </div>
+		<div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center purple-text text-darken-3"><i class="material-icons">person</i></h2>
+            <h5 class="center">Isabel</h5>
+			 <p class="light">
+			 			 <table>
+				<tbody>
+				  <tr>
+					<td>DNI</td>
+					<td>09217640E</td>
+				  </tr>
+				  <tr>
+					<td>Año de nacimiento</td>
+					<td>1990</td>
+				  </tr>
+				  <tr>
+					<td>Fecha de ingreso en la empresa</td>
+					<td>2010</td>
+				  </tr>
+				  <tr>
+					<td>Plus de productividad </td>
+					<td>3%</td>
+				  </tr> 
+				  <tr>
+				  <tr>
+					<td>Plus de antiguedad </td>
+					<td>0,3%</td>
+				  </tr> 
+				  <tr>
+					<td>Sueldo base </td>
+					<td>2100€</td>
+				  </tr>
+				   <tr class="datos">
+					<td>Edad </td>
+					<td class="purple lighten-2" id="edadisabel">1800€</td>
+				  </tr>
+				  <tr class="datos">
+					<td>Sueldo </td>
+					<td class="purple lighten-2" id="sueldoisabel">1800€</td>
+				  </tr>
+				</tbody>
+			</table>
+			 </p>
+          </div>
+        </div>
+		<div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center purple-text text-darken-3"><i class="material-icons">person</i></h2>
+            <h5 class="center">Pedro</h5>
+			 <p class="light">
+			 			 <table>
+				<tbody>
+				  <tr>
+					<td>DNI</td>
+					<td>04863590B</td>
+				  </tr>
+				  <tr>
+					<td>Año de nacimiento</td>
+					<td>1980</td>
+				  </tr>
+				  <tr>
+					<td>Fecha de ingreso en la empresa</td>
+					<td>2005</td>
+				  </tr>
+				  <tr>
+					<td>Plus de productividad </td>
+					<td>9%</td>
+				  </tr> 
+				  <tr>
+				  <tr>
+					<td>Plus de antiguedad </td>
+					<td>0,4%</td>
+				  </tr> 
+				  <tr>
+					<td>Sueldo base </td>
+					<td>1550€</td>
+				  </tr>
+				   <tr class="datos">
+					<td>Edad </td>
+					<td class="purple lighten-2" id="edadpedro">1800€</td>
+				  </tr>
+				  <tr class="datos">
+					<td>Sueldo </td>
+					<td class="purple lighten-2" id="sueldopedro">1800€</td>
+				  </tr>
+				</tbody>
+			</table>
+			 </p>
+          </div>
+        </div>
+		<div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center purple-text text-darken-3"><i class="material-icons">person</i></h2>
+            <h5 class="center">Miguel</h5>
+			 <p class="light">
+			 <table>
+				<tbody>
+				  <tr>
+					<td>DNI</td>
+					<td>06028709H</td>
+				  </tr>
+				  <tr>
+					<td>Año de nacimiento</td>
+					<td>1974</td>
+				  </tr>
+				  <tr>
+					<td>Fecha de ingreso en la empresa</td>
+					<td>2001</td>
+				  </tr>
+				  <tr>
+					<td>Plus de productividad </td>
+					<td>7%</td>
+				  </tr> 
+				  <tr>
+				  <tr>
+					<td>Plus de antiguedad </td>
+					<td>0,6%</td>
+				  </tr> 
+				  <tr>
+					<td>Sueldo base </td>
+					<td>1600€</td>
+				  </tr>
+				   <tr class="datos">
+					<td>Edad </td>
+					<td class="purple lighten-2" id="edadmiguel">1800€</td>
+				  </tr>
+				  <tr class="datos">
+					<td>Sueldo </td>
+					<td class="purple lighten-2" id="sueldomiguel">1800€</td>
+				  </tr>
+				</tbody>
+			</table>
+			 </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+	<div class="row center" id="calcular">
+        <a href="javascript:calcular()" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Calcular</a>
+    </div>
 	
-	<img src="imagenes/ull_logo.jpg" height="300" width="600"></img><br>		
-	<h1>Pr&aacute;ctica para utilizar <dfn>HTML</dfn> que es un lenguaje de marcado para hipertextos</h1>
-	<h2>¡Gestiona tu tiempo de forma eficiente!</h2>
-	<p> Con Tempo, podras organizar tu <a href=""><em>tiempo</em></a> de forma que aproveches el dia al máximo
-	<br> y logres llegar a todos los objetivos que te propongas!</p>
-	<caption>TEMPO</caption>
-	<table>
-	<tr>
-		<ul>Con Tempo podr&aacute;s:
-			<li>Añadir tareas</li>
-			<li>Hacer seguimiento de tu productividad</li>
-			<li>Organizar tu horario</li>
-			<li>Mejorar tu productividad</li>
-		</ul>
+          <div class="icon-block col s4 center push-s4">
+            <h2 class="center purple-text text-darken-3"><i class="material-icons">code</i></h2>
+            <h5 class="center">Informe de etiquetas</h5>
+			 <p class="light">Cantidad de etiquetas por tipo en el codigo
+			 <div id="contar">
+				<a href="javascript:contar()" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Contar</a>
+			</div>
+			  <table id="conta">
+				<tbody>
+				  <tr>
+					<td>Párrafos</td>
+					<td id="parra"></td>
+				  </tr>
+				  <tr>
+					<td>Enlaces</td>
+					<td id="enla"></td>
+				  </tr>
+				  <tr>
+					<td>Divs</td>
+					<td id="divs"></td>
+				  </tr>
+				</tbody>
+			</table>
+			 
+			 </p>
+          </div>
+  </div>
 
-		<ol>También podr&aacute;s:
-			<li>Posponer tareas</li>
-			<li>Tener un calendario que podr&aacute;s compartir con tus compañeros</li>
-			<li>Tener una lista de las tareas seg&uacute;n las prioridades que ponga el profesor</li>
-		</ol>
-	</tr>
+  <footer class="page-footer purple darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Usabilidad y accesibilidad</h5>
+          
+        </div>
+        
+       
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Desarrollado por <a class="orange-text text-lighten-3" href="">David Lázaro Febles</a>
+      </div>
+    </div>
+  </footer>
 
-	Para ponerte en contacto con el equipo de Tempo puedes usar el siguiente <abbr title="Formulario">form</abbr><br><br>
-	<form>
-		<fieldset>
-			<label>Nombre</label><input value="nombre"></input><br>
-			<label>Correo</label><input value="correo"></input><br>
-			<label>Cuentanos</label><textarea value="Cuentanos"></textarea><br>
-			<label>Fecha</label><input type="date"></input><br>
-		</fieldset> 
-	</form>
-	<br>
 
-	<img src="https://influence.digital/wp-content/uploads/2020/07/giphy-13.gif" height="150" width="300"></img><br>
-	
-	<h3>Para la realizaci&oacute;n de esta p&aacute;gina se han utilizado las siguientes etiquetas HTML</h3><br>
-	<strong>&lt;HTML&gt;</strong><br>
-	<strong>&lt;BODY&gt;</strong><br>
-	<strong>&lt;TITLE&gt;</strong><br>
-	<strong>&lt;HEAD&gt;</strong><br>
-	<strong>&lt;H1&gt;</strong><br>
-	<strong>&lt;P&gt;</strong><br>
-	<strong>&lt;A&gt;</strong><br>
-	<strong>&lt;EM&gt;</strong><br>
-	<strong>&lt;BR&gt;</strong><br>
-	<strong>&lt;TABLE&gt;</strong><br>
-	<strong>&lt;TR&gt;</strong><br>
-	<strong>&lt;UL&gt;</strong><br>
-	<strong>&lt;LI&gt;</strong><br>
-	<strong>&lt;FORM&gt;</strong><br>
-	<strong>&lt;INPUT&gt;</strong><br>
-	<strong>&lt;H3&gt;</strong><br>
-	<strong>&lt;HR&gt;</strong><br>
-	<strong>&lt;TEXTAREA&gt;</strong><br>
-	<strong>&lt;STRONG&gt;</strong><br>
-	<strong>&lt;IMG&gt;</strong><br>
-	<strong>&lt;LABEL&gt;</strong><br>
-	<strong>&lt;FIELDSET&gt;</strong><br>
-	<strong>&lt;CAPTION&gt;</strong><br>
-	<strong>&lt;ABBR&gt;</strong><br>
-	<strong>&lt;DFN&gt;</strong><br>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/mio.js"></script>
 
-</body>
+  </body>
 </html>
