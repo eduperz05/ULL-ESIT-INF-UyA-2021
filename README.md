@@ -30,6 +30,9 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 ##### Seminario 5: Operable
 [Seminario 5](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Seminario%205%20Operable)
 
+##### Seminario 6: Comprensible-Robusto
+[Seminario 6](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Seminario%206%20Comprensible%20y%20Robusto)
+
 
 ##### Prácticas Desarrollo web
 
