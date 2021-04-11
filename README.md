@@ -34,7 +34,7 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 [Seminario 6](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Seminario%206%20Comprensible%20y%20Robusto)
 
 ##### Auditoria 1: Página Principal
-Auditoria 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Auditoria%20P%C3%A1gina%20principal)
+[Auditoria 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Auditoria%20P%C3%A1gina%20principal)
 
 
 
