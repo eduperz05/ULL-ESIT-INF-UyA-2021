@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Ajax y Firebase</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="purple darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img height="30px" src="logo.png"></img></a>   
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h3 class="header center purple-text">Java Script: Ajax</h3>
+      <div class="row center">
+          <form class="col s4 center push-s4">
+            <div class="row center">
+              <div class="input-field">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Parametro</label>
+              </div>
+            </div>
+		      </form>
+      </div>
+
+      <div class="row center" id="cargando">
+        <a href="javascript:muestra()" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Cargar</a>
+      </div>
+	  
+      <div class="row">
+        <p id="incoming"></p>
+        <div class="col s4 center push-s4"  id="texto"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <br><br>
+      <h3 class="header center purple-text">Firebase</h3>
+      <div class="row center">
+        <form class="col s4 center push-s4">
+          <div class="row center">
+            <div class="input-field">
+              <textarea id="textarea2" class="materialize-textarea"></textarea>
+              <label for="textarea2">Introducir el nombre a insertar</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="row center" id="mostrar">
+        <a href="javascript:cargar()" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Añadir</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row center">
+        <form class="col s4 center push-s4">
+          <div class="row center">
+            <div class="input-field">
+              <textarea id="textarea3" class="materialize-textarea"></textarea>
+              <label for="textarea3">Introducir la edad a modificar</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="row center" id="mostrar">
+        <a href="javascript:actualizar()" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Actualizar</a>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer purple darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Usabilidad y accesibilidad</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Desarrollado por <a class="orange-text text-lighten-3" href="">Grupo 13</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/mio.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="js/firebase.js"></script>
+
+</body>
+</html>
