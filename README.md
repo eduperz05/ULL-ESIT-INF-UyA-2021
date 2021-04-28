@@ -33,9 +33,12 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 ##### Seminario 6: Comprensible-Robusto
 [Seminario 6](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Seminario%206%20Comprensible%20y%20Robusto)
 
-##### Auditoria 1: Página Principal
-[Auditoria 1](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Auditoria%20P%C3%A1gina%20principal)
+##### Auditoria
+###### Página Principal
+[Página de inicio](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Seminarios/Auditoria%20P%C3%A1gina%20principal)
 
+###### Selección de la muestra
+[Muestra](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Seminarios/Auditoria%20Muestra/Selecci%C3%B3n%20de%20la%20muestra-%20Grupo%2013.pdf)
 
 
 ##### Prácticas Desarrollo web
@@ -52,4 +55,8 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 
 [Javascript, Ajax, Firebase](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1cticas/Java%20Script%20Ajax%3B%20Firebase)
 
+##### Prácticas Accesibilidad
+
 [Validación Automática](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1cticas/Validaci%C3%B3n%20Autom%C3%A1tica)
+
+[Metodología Seguimiento Accesibilidad](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1cticas/Metodologia%20Seguimiento%20Accesibilidad/Pr%C3%A1ctica%20de%20Accesibilidad%20Grupo%2013.pdf)
