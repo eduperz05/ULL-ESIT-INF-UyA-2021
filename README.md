@@ -60,3 +60,5 @@ Página del Repositorio: [Enlace](https://educande05.github.io/ULL-ESIT-INF-UyA-
 [Validación Automática](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1cticas/Validaci%C3%B3n%20Autom%C3%A1tica)
 
 [Metodología Seguimiento Accesibilidad](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/blob/main/Pr%C3%A1cticas/Metodologia%20Seguimiento%20Accesibilidad/Pr%C3%A1ctica%20de%20Accesibilidad%20Grupo%2013.pdf)
+
+[Core Web Vitals](https://github.com/educande05/ULL-ESIT-INF-UyA-2021/tree/main/Pr%C3%A1cticas/Core%20Web%20Vitals)
