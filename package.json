@@ -1,0 +1,20 @@
+{
+  "name": "ULL-ESIT-INF-UyA-2021",
+  "version": "1.0.0",
+  "description": "+ Eduardo Pérez Suárez, [alu0100890174@ull.edu.es](alu0100890174@ull.edu.es)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/educande05/ULL-ESIT-INF-UyA-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/educande05/ULL-ESIT-INF-UyA-2021/issues"
+  },
+  "homepage": "https://github.com/educande05/ULL-ESIT-INF-UyA-2021#readme"
+}
