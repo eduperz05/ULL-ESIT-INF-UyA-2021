@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Panel | Tempo</title>
+
+    <!-- Favicons-->
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#00bcd4">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <!-- For Windows Phone -->
+
+
+    <!-- CORE CSS-->    
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  
+ 
+</head>
+
+<body>
+    <!-- Start Page Loading -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Page Loading -->
+
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+    <nav class="deep-orange darken-4" role=”banner” arial-label="Cabecera de la web.">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="../index.html" class="brand-logo left"> <img class="foto-logo" src="../tempo.png" width="120" height="60"></img></a>
+          <ul role="navigation" class="right">
+            <li><a role= "button" arial-label="Vuelve a pagina de inicio." class="white-text" href="../index.html">Inicio</a></li>
+            <li><a role= "button" arial-label="Ve a pagina de contactos." class="white-text" href="../contacto.html">Contacto</a></li>
+            <li><a role= "button" arial-label="Ve a pagina Mas sobre tempo" class="white-text" href="../mas.html">Más sobre Tempo</a></li>
+          </ul>
+    </nav>
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- START MAIN -->
+    <div id="main" role="navigation" arial-label="Menu de navegacion principal.">
+        <!-- START WRAPPER -->
+        <div class="wrapper">
+            <!-- START LEFT SIDEBAR NAV-->
+            <aside id="left-sidebar-nav">
+                <ul id="slide-out" class="side-nav fixed leftside-navigation">
+                <li class="user-details cyan darken-2">
+                <div class="row">
+                    <div class="col col s4 m4 l4">
+                        <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image">
+                    </div>
+                    <div class="col col s8 m8 l8">
+                        <ul id="profile-dropdown" class="dropdown-content">
+                            <li><a role= "button" arial-label="Ve al perfil." href="#"><i class="mdi-action-face-unlock"></i> Perfil</a>
+                            </li>
+                            <li><a role= "button" arial-label="Ve a ajustes." href="#"><i class="mdi-action-settings"></i>Ajustes</a>
+                            </li>
+                            <li><a role= "button" arial-label="Ve a ayuda." href="#"><i class="mdi-communication-live-help"></i> Ayuda</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a role= "button" arial-label="Sal del panel." href="javascript:singout()"><i class="mdi-hardware-keyboard-tab"></i>Salir</a>
+                            </li>
+                        </ul>
+                        <a tabindex="0" role= "button" class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" id="alumno" href="#" data-activates="profile-dropdown">David<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                        <p class="user-roal">Alumno</p>
+                    </div>
+                </div>
+            </li>
+                <li class="bold"><a tabindex="0" role="button" arial-label="Ve a inicio." href="../index.html" class="waves-effect waves-cyan"><i class="mdi-action-home"></i> Inicio</a>
+                <li class="bold active"><a tabindex="0" role="button" arial-label="Ve a el panel." href="panel.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Panel</a>
+                </li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion"></ul>
+                </li>
+                <li class="bold"><a tabindex="0" role="button" arial-label="Ve a los mensajes." href="email.html" class="waves-effect waves-cyan"><i class="mdi-communication-email"></i> Mensajes <span class="new badge">4</span></a>
+                </li>
+                <li class="bold"><a tabindex="0" role="button" arial-label="Ve al calendario." href="calendar.html" class="waves-effect waves-cyan"><i class="mdi-editor-insert-invitation"></i> Calendario</a>
+                </li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">                 
+                        <li class="bold"><a tabindex="0" role="button" href="#" aria-label="Expande opciones relacionadas con la ULL." aria-expanded="false" class="collapsible-header  waves-effect waves-cyan"><i class="mdi-action-work"></i>ULL</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a tabindex="0" role="button" arial-label="Ve al campus virtual." href="https://campusvirtual.ull.es/" target="_blank">Campus Virtual</a></li>
+                                    <li><a tabindex="0" role="button" arial-label="Ve al portal de ull." href="https://portal.ull.es/portal/page/portal/ULL/inicio/" target="_blank">Portal ULL</a></li>
+                                    <li><a tabindex="0" role="button" arial-label="Ve a la guia docente." href="https://www.ull.es/grados/derecho/plan-de-estudios/guias-docentes/" target="_blank">Guía docente</a></li>
+                                    <li><a tabindex="0" role="button" arial-label="Ve a los horarios y examenes." href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horario y Examenes</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">                 
+                        <li class="bold"><a tabindex="0" role="button" href="#" aria-label="Despliega opciones de usuario." aria-expanded="false" class="collapsible-header  waves-effect waves-cyan"><i class="mdi-action-account-circle"></i> Usuario</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a tabindex="0" role="button" arial-label="Sal de la aplicacion." href="javascript:singout()">Salir</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+              
+            </ul>
+                <a tabindex="0" role= "button" href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+            </aside>
+            <!-- END LEFT SIDEBAR NAV-->
+
+            <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+            <!-- START CONTENT -->
+            <section id="content" role= "main" arial-label="Informacion del panel.">
+                <div id="breadcrumbs-wrapper" aria-label="Breadcrumbs">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col s12 m12 l12">
+                        <h1 class="breadcrumbs-title">Panel</h1>
+                        <ol class="breadcrumbs">
+                            <li><a role= "button" arial-label="Ve al inicio de la web." href="../index.html">Incio</a></li>
+                            <li class="active">Panel</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--start container-->
+                <div class="container">
+                    <!--card widgets start-->
+                    <div id="card-widgets">
+                        <div class="row s12">
+                            <div class="col s4">
+                                <ul id="task-card" class="collection with-header">
+                                    <li class="collection-header cyan">
+                                        <h4 class="task-card-title">Mis Tareas</h4>
+                                        <p class="task-card-date">5 Junio, 2021</p>
+                                    </li>
+                                    <a role= "button" aria-label="Abre una ventana para añadir una nueva tarea." aria-expanded="false" href="#task-modal" class="task-add modal-trigger btn-floating waves-effect waves-light"><i class="mdi-content-add"></i></a>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task1" />
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." for="task1">Práctica SSI <a href="#" class="secondary-content"><span class="ultra-small">Hoy</span></a>
+                                        </label>
+                                        <span class="task-cat teal">Práctica</span>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task2" />
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." for="task2">Práctica UyA<a href="#" class="secondary-content"><span class="ultra-small">Martes</span></a>
+                                        </label>
+                                        <span class="task-cat purple">Práctica</span>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task3">
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." for="task3">Seminario Uya<a href="#" class="secondary-content"><span class="ultra-small">Jueves</span></a>
+                                        </label>
+                                        <span class="task-cat pink">Seminario</span>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task4" checked="checked" disabled="disabled" />
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." for="task4">Cuestionario UyA</label>
+                                        <span class="task-cat cyan">Cuestionario</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+							 <div class="col s4">
+                                <ul id="projects-collection" class="collection">
+                                    <li class="collection-item avatar">
+                                        <i class="mdi-file-folder circle light-blue darken-2"></i>
+                                        <span class="collection-header">Trabajos en grupo</span>
+                                        <a href="#" class="secondary-content"><i class="mdi-action-grade"></i></a>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <div class="col s6">
+                                                <p class="collections-title">Prototipo UyA</p>
+                                                <p class="collections-content">Proyecto UyA</p>
+                                            </div>
+                                            <div class="col s3">
+                                                <span class="task-cat cyan">Desarrollo</span>
+                                            </div>
+                                            <div class="col s3">
+                                                <div id="project-line-1"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <div class="col s6">
+                                                <p class="collections-title">Prototipo DSI</p>
+                                                <p class="collections-content">Aplicación IOs</p>
+                                            </div>
+                                            <div class="col s3">
+                                                <span class="task-cat grey darken-3">UI/UX</span>
+                                            </div>
+                                            <div class="col s3">
+                                                <div id="project-line-2"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <div class="col s6">
+                                                <p class="collections-title">Página web</p>
+                                                <p class="collections-content">App</p>
+                                            </div>
+                                            <div class="col s3">
+                                                <span class="task-cat teal">Desarrollo</span>
+                                            </div>
+                                            <div class="col s3">
+                                                <div id="project-line-3"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+						   
+                            <div class="col s4">
+                                <ul id="task-card" class="collection with-header">
+                                    <li class="collection-header green">
+                                        <h4 class="task-card-title">Mis Descansos</h4>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task1" />
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." aria-checked="false" for="task1">Cada 30 min<a href="#" class="secondary-content"></a>
+                                        </label>
+                                        <span class="task-cat teal">Prácticas</span>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input  type="checkbox" id="task2" />
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." aria-checked="false" for="task2">Cada 40 min<a href="#" class="secondary-content"></a>
+                                        </label>
+                                        <span class="task-cat purple">Exámen</span>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task3">
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." aria-checked="false" for="task3">Cada 1 hora<a href="#" class="secondary-content"></a>
+                                        </label>
+                                        <span class="task-cat pink">Cuestionarios</span>
+                                    </li>
+                                    <li class="collection-item dismissable">
+                                        <input type="checkbox" id="task4">
+                                        <label role= "checkbox" aria-label="Puedes marcas si has realizado o no esta tarea." aria-checked="false" for="task4">Cada 1h y 30 min</label>
+                                        <span class="task-cat cyan">Repaso diario</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                    </div>
+                    <!--card widgets end-->
+
+                    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+                    <!--work collections end-->
+                    <div id="task-modal" class="modal" role="" arial-label="Añadir nueva tarea al panel.">
+                        <nav class="task-modal-nav red">
+                            <div class="nav-wrapper">
+                                <div class="left col s12 m5 l5">
+                                    <ul>
+                                        <li><a role= "button" href="#!" class="todo-menu"><i class="modal-action modal-close  mdi-hardware-keyboard-backspace"></i></a>
+                                        </li>
+                                        <li><a href="#!" class="todo-add">Nueva tarea</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col s12 m7 l7 hide-on-med-and-down">
+                                    <ul class="right">
+                                        <li><a role= "button" href="#!"><i class="mdi-editor-attach-file"></i></a>
+                                        </li>
+                                        <li><a role= "button" href="#!"><i class="mdi-action-loyalty"></i></a>
+                                        </li>
+                                        <li><a role= "button" href="#!"><i class="mdi-navigation-more-vert"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="modal-content" role="form" aria-label="ventana de formulario para nueva tarea.">                    
+                            <div class="row">
+                                <form class="col s12">                        
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="todo-title" type="text" class="validate">
+                                            <label for="todo-title">Título</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s6">                            
+                                            <select>
+                                                <option value="" disabled selected>Elige una opción</option>
+                                                <option value="1">Práctica</option>
+                                                <option value="2">Seminario</option>
+                                                <option value="3">Cuestionario</option>
+                                            </select>
+                                        </div>                          
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="comments" class="materialize-textarea" length="500"></textarea>
+                                            <label for="comments">Comentario</label>
+                                            <span class="character-counter"></span>
+                                        </div>
+                                    </div>
+                                    <a role= "button" class="btn waves-effect waves-light center red" id="button-enviar" tabindex="0" aria-label="Añadir tarea">Añadir</a>
+                                </form>
+                            </div>
+                        </div>                 
+                    </div>
+
+                    <!-- Floating Action Button -->
+                    <div class="fixed-action-btn" style="bottom: 50px; right: 19px;" role="button" aria-expanded="false">
+                        <a class="btn-floating btn-large">
+                          <i class="mdi-action-stars"></i>
+                        </a>
+                        <ul>
+                            <li><a role= "button" aria-label="Ve al panel." href="panel.html" class="btn-floating yellow darken-1"><i class="large mdi-device-now-widgets"></i></a></li>
+                            <li><a role= "button" aria-label="Ve al calendario." href="calendar.html" class="btn-floating green"><i class="large mdi-editor-insert-invitation"></i></a></li>
+                            <li><a role= "button" aria-label="Ve al e-mail." href="email.html" class="btn-floating blue"><i class="large mdi-communication-email"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Floating Action Button -->
+                </div>
+                <!--end container-->
+            </section>
+            <!-- END CONTENT -->
+        </div>
+        <!-- END WRAPPER -->
+
+    <!-- END MAIN -->
+
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- ================================================
+    Scripts
+    ================================================ -->
+    
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>    
+    <!--materialize js-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+
+
+
+    <!--  Scripts-->
+   
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="../js/firebase.js"></script>
+    <script src="js/au.js"></script>
+    
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript">
+    // Toast Notification
+    $(window).load(function() {
+        setTimeout(function() {
+            Materialize.toast('<span>TIenes mensajes nuevos</span>', 1500);
+        }, 1500);
+    });
+    </script>
+</body>
+
+</html>
