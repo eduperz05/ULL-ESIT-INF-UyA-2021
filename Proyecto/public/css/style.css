@@ -1,0 +1,395 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  position: static;
+  line-height: 2em;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+a {
+  color: #ffc3c6;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+#index-banner .section{
+  top: 25px;
+  font-size: 10px;
+}
+
+#cabecera2 {
+  position: static;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+#titulo2, #titulo2_re{
+  position: static;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+h2 {
+  position: static;
+  font-size: 35px;
+  margin-top: 20%;
+  margin-bottom: 4%;
+}
+
+#button-comenzar {
+  position: static;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+#texto_segundo {
+  position: relative;
+  margin-top: 35px; 
+  font-size: 16px;
+}
+
+#block_tercero {
+  position: relative;
+  top: -65px; 
+}
+
+#texto-tercero {
+  position: relative;
+  top: -45px; 
+  font-size: 16px;
+}
+
+#texto_cuarto {
+  position: relative;
+  margin-top: 35px; 
+  font-size: 16px;
+}
+
+.light {
+  position: static;
+  top: -25px; 
+  left: 20px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.card {
+  position: static;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+#icon-ayuda {
+  position: relative;
+  top: -80px;
+  left: 125px;
+  font-size: 25px;
+  border: none;
+  background-color: white;
+}
+
+tr {
+  font-size: 15px;
+}
+
+#cabecera_contacto {
+  position: static;
+  margin-top: -5%;
+  margin-bottom: 4%;
+}
+
+#tex_contacto, #tex_contacto2 {
+  font-size: 16px;
+}
+
+#contacto1, #contacto2 {
+  font-size: 20px;
+  position: static;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#Mapa {
+  position: static;
+}
+
+#tableweb {
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+/*----------------------------------------
+    Breadcrumb
+------------------------------------------*/
+#breadcrumbs-wrapper {
+  background: #f3f3f3;
+}
+
+h5.breadcrumbs-header {
+  font-size: 1.64rem;
+  line-height: 1.804rem;
+  margin: 1.5rem 0 0 0;
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin: 15px 0;
+  list-style: none;
+}
+
+.breadcrumbs > li {
+  display: inline-block;
+}
+
+.breadcrumbs > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+
+.breadcrumbs .active {
+  font-weight: normal;
+  color: #999;
+}
+
+.breadcrumbs-title {
+  font-size: 1.5rem;
+  line-height: 1.804rem;
+  margin: 18px 0 0;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: static;
+    top: 25%;
+  }
+
+  #index-banner .section{
+    top: -5%;
+    font-size: 10px;
+  }
+
+  .foto-logo{
+    position: relative;
+    top: 4 px; 
+    left: 70px;
+  }
+
+  #button-comenzar {
+    position: static;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+
+  .center {
+    position:static;
+    top: -35px;
+    font-size: 20px;
+  }
+
+  #icon-izq {
+    font-size: 30px;
+    position:relative;
+    top: -5px;
+  }
+
+  #icon-cnt {
+    font-size: 30px;
+    position:relative;
+    top: -5px;
+  }
+
+  #icon-drc {
+    font-size: 30px;
+    position:relative;
+    top: -5px;
+  }
+
+  #cabecera {
+    position: static;
+    top: 10px;
+    font-size: 45px;
+  }
+
+  h2 {
+    position: static;
+    font-size: 35px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  #button-comenzar {
+    position: static;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+
+  .text-hite {
+    position: static;
+  }
+
+  #texto_segundo {
+    font-size: 16px;
+    position: static;
+    margin-top: 15%;
+    margin-bottom: 4%;
+  }
+
+  #block_tercero {
+    position: relative;
+    top: 10px; 
+  }
+
+  #texto-tercero {
+    position: static;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  #texto_cuarto {
+    position: static;
+    margin-top: 15%;
+    margin-bottom: 4%;
+    font-size: 16px;
+  }
+
+  .light {
+    position: static;
+    top: -25px; 
+    left: 20px;
+  }
+
+  .card {
+    position: relative;
+    top: 30px;
+  }
+}
+
+p {
+  line-height: 2em;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .foto-logo{
+    position: relative;
+    top: -2px; 
+    left: 70px;
+  }
+
+  #cabecera {
+    position: static;
+    top: 20px;
+    font-size: 45px;
+  }
+
+  h2 {
+    position: static;
+    font-size: 35px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  h3 {
+    position: relative;
+    top: -15px; 
+    font-size: 25px;
+  }
+
+  #button-comenzar {
+    position: static;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+
+  .text-hite {
+    position: static;
+  }
+
+  #texto_segundo {
+    font-size: 16px;
+  }
+
+  #texto-tercero {
+    position: relative;
+    top: 15px; 
+  }
+
+  #texto_cuarto {
+    font-size: 16px;
+  }
+}
+
+p {
+  line-height: 2em;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Tempo - Registrarse</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/png" href="imagen.png" sizes="64x64">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <nav class="deep-orange darken-4" role=”banner” arial-label="Cabecera de la web.">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo left"> <img alt="Logo tempo." class="foto-logo" src="tempo.png" width="120" height="60"></img></a>
+      <ul hidden role=”navigation” arial-label="Menú principal" class="right hide-on-med-and-down showmenu">
+        <li><a role= "button" tabindex="0" arial-label="Vuelve a pagina de inicio." class="white-text" href="index.html">Inicio</a></li>
+        <li><a role= "button" tabindex="0" arial-label="Ve a pagina de contactos." class="white-text" href="contacto.html">Contacto</a></li>
+        <li><a role= "button" tabindex="0" arial-label="Ve a pagina Mas sobre tempo" class="white-text" href="mas.html">Más sobre Tempo</a></li>
+        <li hidden class="ocultarse"><a role= "button" tabindex="0" arial-label="Ve a pagina de identificate." class="white-text" href="identificarse.html">Identifícate</a></li>
+        <li hidden class="ocultarse"><a role= "button" tabindex="0" arial-label="Ve a pagina de registrate." class="white-text" href="registro.html">Regístrarse</a></li>
+		    <li hidden class="mostrar"><a role= "button" tabindex="0" class="white-text" href="dashboard/panel.html">Panel</a></li>
+        <li hidden class="mostrar"><a role= "button" tabindex="0" class="white-text" href="javascript:mainsingout()">Salir</a></li>
+      </ul>
+
+      <ul hidden role=”navigation” arial-label="Menú principal" id="nav-mobile" class="sidenav showmenu">
+        <li><a role= "button" arial-label="Vuelve a pagina de inicio." tabindex="-1" href="index.html">Inicio</a></li>
+        <li><a role= "button" arial-label="Ve a pagina de contactos." tabindex="-1" href="contacto.html">Contacto</a></li>
+        <li><a role= "button" arial-label="Ve a pagina Mas sobre tempo" tabindex="-1" href="mas.html">Más sobre Tempo</a></li>
+        <li hidden class="ocultarse"><a role= "button" arial-label="Ve a pagina de identificate." tabindex="-1" href="identificarse.html">Identifícate</a></li>
+        <li hidden class="ocultarse"><a role= "button" arial-label="Ve a pagina de registrate." tabindex="-1" href="registro.html">Regístrarse</a></li>
+        <li hidden class="mostrar"><a role= "button" tabindex="-1" href="dashboard/panel.html">Panel</a></li>
+        <li hidden class="mostrar"><a role= "button" tabindex="-1" href="javascript:mainsingout()">Salir</a></li>
+      </ul>
+      <a arial-label="Menu." href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container blue-grey darken-4">
+    <section id="content">
+      <div id="breadcrumbs-wrapper" class="blue-grey darken-4" aria-label="Breadcrumbs">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <h1 class="breadcrumbs-title">Registrarse</h1>
+              <ol class="breadcrumbs">
+                <li><a href="index.html">Incio</a></li>
+                <li class="active">Registrarse</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 id="cabecera" class="header center deep-orange-text text-lighten-5">ORGANIZATE CON TEMPO</h1>
+        <div class="row center">
+          <h2 id="titulo2_re" class="header col s12 ">Mejora tú rendimiento</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+		<!--Formulario-->
+    <div class="parallax-container blue-grey darken-4" role="form">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+            <div class="card-panel z-depth-5">
+              <h3 class="center red-text"> Regístrate</h3>	 
+              <div class="row">
+                <form class="col s12 m12">
+                  <div class="row">
+                    <div class="input-field col s12 m12">
+                      <i class="mdi-action-account-circle prefix"></i>
+                      <i class="material-icons red-text">account_circle</i>
+                      <label for="icon_prefix">Usuario</label>
+                      <input id="icon_prefix" arial-label="Introducir el nombre del usuario" type="text" class="validate" aria-required="true" required>
+                      <span class="helper-text" data-error="Usuario vacio. Introduce un nombre" data-success="Usuario introducido correctamente"></span>
+                    </div>
+            
+                    <div class="input-field col s12 m12">	  
+                      <i class="mdi-communication-email prefix"></i>
+                      <i class="material-icons red-text">mail</i>
+                      <label for="icon_email">Correo</label>
+                      <input id="icon_email" arial-label="Introducir el correo" type="email" class="validate" aria-required="true" required>
+                      <span class="helper-text" data-error="Correo vacio. Introduce un correo válido" data-success="Correo introducido correctamente"></span>
+                    </div>
+            
+                    <div class="input-field col s12 m12">
+                      <i class="fa fa-unlock-alt prefix"></i>
+                      <i class="material-icons red-text">lock_open</i>
+                      <label for="icon_password">Contraseña</label>
+                      <input id="contraseñaRegistrar" arial-label="Introducir la contraseña"  type="password" class="validate" minlength="5" aria-required="true" required>
+                      <span class="helper-text" data-error="Contraseña vacia. Contraseña de mínimo de 5 dígitos" data-success="Contraseña introducida correctamente"></span>
+                    </div>
+                  </div>
+                </form>
+            </div><!--row-->
+            <a class="btn waves-effect waves-light center red" role= "button" id="button-comenzar" href="javascript:registrar()">Registrarse</a>
+          </div><!--card-->
+        </div><!--col-->
+      </div><!--row-->
+      <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+  </div>
+
+  <footer role=”contentinfo” arial-label="Información sobre la web y enlaces." class="page-footer deep-orange darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h3>Sobre nosotros</h3>
+          <p class="grey-text text-lighten-4">Somos un equipo de estudiantes universitarios trabajando en este proyecto y cualquier apoyo o soporte a nuestra labor seria agradecido enormemente.</p>
+        </div>
+        <div class="col l3 s12">
+          <h3>Links</h3>
+          <ul role=”navigation” arial-label="Menú de informacion.">
+            <li><a role= "button" arial-label="Ve al mapa web." tabindex="0" class="white-text" href="mapaweb.html">Mapa web</a></li>
+            <li><a role= "button" arial-label="Ve a pagina de terminos." tabindex="0" class="white-text" href="#!">Términos</a></li>
+            <li><a role= "button" arial-label="Ve a ayuda." tabindex="0" class="white-text" href="#!">Ayuda</a></li>
+            <li><a role= "button" arial-label="ve a blog" tabindex="0" class="white-text" href="#!">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h3 class="white-text">Redes</h3>
+          <ul role=”navigation” arial-label="Menú de informacion.">
+            <li><a role= "button" arial-label="Enlace a facebook." tabindex="0" class="white-text" href="#!"><img class="responsive-img" src="facebook.png" alt="Logo facebook" width="25" height="25"></img></a>
+              <a role= "button" arial-label="Enlace a linkedin." tabindex="0" class="white-text" href="#!"><img class="responsive-img" src="linkedin.png" alt="Logo facebook" width="25" height="25"></img></a></li>
+            <li><a role= "button" arial-label="Enlace a instagram." tabindex="0" class="white-text" href="#!"><img class="responsive-img" src="instagram.png" alt="Logo instagram" width="25" height="25"></img></a>
+              <a role= "button" arial-label="Enlace a twitter." tabindex="0" class="white-text" href="#!"><img class="responsive-img" src="twitter.png" alt="Logo twitter" width="25" height="25"></img></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p>Diseñado por <a tabindex="0" class="brown-text text-lighten-3" href="">Tempo Team</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+  <script src="js/firebase.js"></script>
+
+
+</body>
+</html>

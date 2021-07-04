@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 3.0
+	Author: GeeksLabs
+	Author URL: http://www.themeforest.net/user/geekslabs
+================================================================================ -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+  <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+  <title>Correo | Tempo</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+  <!-- For iPhone -->
+  <meta name="msapplication-TileColor" content="#00bcd4">
+  <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+  <!-- For Windows Phone -->
+
+
+  <!-- CORE CSS-->
+  
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  </head>
+
+<body>
+  <!-- Start Page Loading -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Page Loading -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <nav class="deep-orange darken-4" role=”banner” arial-label="Cabecera de la web.">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="../index.html" class="brand-logo left"> <img class="foto-logo" src="../tempo.png" width="120" height="60"></img></a>
+      <ul role="navigation" class="right">
+        <li><a role= "button" arial-label="Vuelve a pagina de inicio." class="white-text" href="../index.html">Inicio</a></li>
+        <li><a role= "button" arial-label="Ve a pagina de contactos." class="white-text" href="../contacto.html">Contacto</a></li>
+        <li><a role= "button" arial-label="Ve a pagina Mas sobre tempo" class="white-text" href="../mas.html">Más sobre Tempo</a></li>
+      </ul>
+  </nav>
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START MAIN -->
+  <div id="main" role="navigation" arial-label="Menu de navegacion principal.">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+            <!-- START LEFT SIDEBAR NAV-->
+            <aside id="left-sidebar-nav">
+              <ul id="slide-out" class="side-nav fixed leftside-navigation">
+              <li class="user-details cyan darken-2">
+              <div class="row">
+                  <div class="col col s4 m4 l4">
+                      <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image">
+                  </div>
+                  <div class="col col s8 m8 l8">
+                      <ul id="profile-dropdown" class="dropdown-content">
+                          <li><a role= "button" arial-label="Ve al perfil." href="#"><i class="mdi-action-face-unlock"></i> Perfil</a>
+                          </li>
+                          <li><a role= "button" arial-label="Ve a ajustes." href="#"><i class="mdi-action-settings"></i>Ajustes</a>
+                          </li>
+                          <li><a role= "button" arial-label="Ve a ayuda." href="#"><i class="mdi-communication-live-help"></i> Ayuda</a>
+                          </li>
+                          <li class="divider"></li>
+                          <li><a role= "button" arial-label="Sal del panel." href="javascript:singout()"><i class="mdi-hardware-keyboard-tab"></i>Salir</a>
+                          </li>
+                      </ul>
+                      <a role= "button" class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" id="alumno" href="#" data-activates="profile-dropdown">David<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                      <p class="user-roal">Alumno</p>
+                  </div>
+              </div>
+          </li>
+              <li class="bold"><a tabindex="0" role="button" arial-label="Ve a inicio." href="../index.html" class="waves-effect waves-cyan"><i class="mdi-action-home"></i> Inicio</a>
+              <li class="bold"><a tabindex="0" role="button" arial-label="Ve a el panel." href="panel.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Panel</a>
+              </li>
+              <li class="no-padding">
+                  <ul class="collapsible collapsible-accordion"></ul>
+              </li>
+              <li class="bold active"><a tabindex="0" role="button" arial-label="Ve a los mensajes." href="email.html" class="waves-effect waves-cyan"><i class="mdi-communication-email"></i> Mensajes <span class="new badge">4</span></a>
+              </li>
+              <li class="bold"><a tabindex="0" role="button" arial-label="Ve al calendario." href="calendar.html" class="waves-effect waves-cyan"><i class="mdi-editor-insert-invitation"></i> Calendario</a>
+              </li>
+              <li class="no-padding">
+                  <ul class="collapsible collapsible-accordion">                 
+                      <li class="bold"><a tabindex="0" role="button" href="#" aria-label="Expande opciones relacionadas con la ULL." aria-expanded="false" class="collapsible-header  waves-effect waves-cyan"><i class="mdi-action-work"></i>ULL</a>
+                          <div class="collapsible-body">
+                              <ul>
+                                  <li><a tabindex="0" role="button" arial-label="Ve al campus virtual." href="https://campusvirtual.ull.es/" target="_blank">Campus Virtual</a></li>
+                                  <li><a tabindex="0" role="button" arial-label="Ve al portal de ull." href="https://portal.ull.es/portal/page/portal/ULL/inicio/" target="_blank">Portal ULL</a></li>
+                                  <li><a tabindex="0" role="button" arial-label="Ve a la guia docente." href="https://www.ull.es/grados/derecho/plan-de-estudios/guias-docentes/" target="_blank">Guía docente</a></li>
+                                  <li><a tabindex="0" role="button" arial-label="Ve a los horarios y examenes." href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horario y Examenes</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                  </ul>
+              </li>
+              <li class="no-padding">
+                  <ul class="collapsible collapsible-accordion">                 
+                      <li class="bold"><a tabindex="0" role="button" href="#" aria-label="Despliega opciones de usuario." aria-expanded="false" class="collapsible-header  waves-effect waves-cyan"><i class="mdi-action-account-circle"></i> Usuario</a>
+                          <div class="collapsible-body">
+                              <ul>
+                                  <li><a tabindex="0" role="button" arial-label="Sal de la aplicacion." href="javascript:singout()">Salir</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                  </ul>
+              </li>
+            
+          </ul>
+              <a tabindex="0" role= "button" href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+          </aside>
+            <!-- END LEFT SIDEBAR NAV-->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- START CONTENT -->
+      <section id="content">
+        <div id="breadcrumbs-wrapper" aria-label="Breadcrumbs">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <h1 class="breadcrumbs-title">Correo</h1>
+              <ol class="breadcrumbs">
+                <li><a href="../index.html">Incio</a></li>
+                <li><a href="panel.html">Panel</a></li>
+                <li class="active">Correo</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--start container-->
+        <div class="container">
+          <div id="mail-app" class="section">
+            <div class="row">
+              <div class="col s12">
+                <nav class="red">
+                  <div class="nav-wrapper">
+                    <div class="left col s12 m5 l5">
+                      <ul>
+                        <li><a role="button" aria-label="Menú del correo." href="#!" class="email-menu"><i class="mdi-navigation-menu"></i></a>
+                        </li>
+                        <li><a role="button" aria-label="Bandeja Principal." href="#!" class="email-type">Principal</a>
+                        </li>
+                        <li class="right"><a href="#!" role="button" aria-label="Buscador." ><i class="mdi-action-search"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col s12 m7 l7 hide-on-med-and-down">
+                      <ul class="right">
+                        <li><a role="button" aria-label="Archivar mensaje" href="#!"><i class="mdi-content-archive"></i></a>
+                        </li>
+                        <li><a role="button" aria-label="Borrar mensaje" href="#!"><i class="mdi-action-delete"></i></a>
+                        </li>
+                        <li><a role="button" aria-label="Marcar como No Leído" href="#!"><i class="mdi-content-mail"></i></a>
+                        </li>
+                        <li><a role="button" aria-label="Más opciones" href="#!"><i class="mdi-navigation-more-vert"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </nav>
+              </div>
+              <div class="col s12">
+                <div id="email-sidebar" class="col s2 m1 s1 card-panel">
+                  <ul>
+                    <li>
+                      <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image">
+                    </li>
+                    <li>
+                      <a role="button" aria-label="Recibidos." href="#!"><i class="mdi-content-archive active"></i></a>
+                    </li>
+                    <li>
+                      <a role="button" aria-label="Social." href="#!"><i class="mdi-social-group"></i></a>
+                    </li>
+                    <li>
+                      <a role="button" aria-label="Promociones." href="#!"><i class="mdi-maps-local-offer"></i></a>
+                    </li>
+                    <li>
+                      <a role="button" aria-label="Notificaciones." href="#!"><i class="mdi-alert-error"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="email-list" class="col s10 m4 l4 card-panel z-depth-1">
+                  <ul class="collection">
+                    <li role="button" arial-label="Social." class="collection-item avatar email-unread">
+                      <i class="mdi-social-group icon blue-text"></i>
+                      <span class="email-title">Social</span>
+                      <p class="truncate grey-text ultra-small">Tienes una petición de Google+</p>
+                      <a href="#!" class="secondary-content"><span class="new badge blue">4</span></a>
+                    </li>
+                    <li role="button" arial-label="Promociones." class="collection-item avatar email-unread">
+                      <i class="mdi-maps-local-offer icon green-text"></i>
+                      <span class="email-title">Promociones</span>
+                      <p class="truncate grey-text ultra-small">Amazone, 50% descuento en Flipkart </p>
+                      <a href="#!" class="secondary-content"><span class="new badge green">6</span></a>
+                    </li>
+                    <li role="button" arial-label="Actualizaciones." class="collection-item avatar email-unread">
+                      <i class="mdi-alert-error icon yellow-text text-darken-3"></i>
+                      <span class="email-title">Actualizacione</span>
+                      <p class="truncate grey-text ultra-small">Tienes una actialización en una aplicación de Google play</p>
+                      <a href="#!" class="secondary-content"><span class="new badge yellow darken-3">2</span></a>
+                    </li>
+                    <li class="collection-item avatar email-unread">
+                      <span class="circle red lighten-1">A</span>
+                      <span class="email-title">Amazone.com</span>
+                      <p class="truncate grey-text ultra-small">Ya están las rebajas de verano</p>
+                      <a href="#!" class="secondary-content email-time"><span class="blue-text ultra-small">12:10 am</span></a>
+                    </li>
+                    <li class="collection-item avatar selected">
+                      <span class="circle light-blue">I</span>
+                      <span class="email-title">Isabel Sánchez Berriel</span>
+                      <p class="truncate grey-text ultra-small">Buenos días, las tutorías de los días: 2, 8 y 9....</p>
+                      <a href="#!" class="secondary-content email-time"><i class="mdi-editor-attach-file attach-file"></i> <span class="grey-text ultra-small">12:10 am</span></a>
+                    </li>
+                    <li class="collection-item avatar email-unread">
+                      <span class="circle grey darken-1">S</span>
+                      <span class="email-title">Subdirector de Ordenación Académica</span>
+                      <p class="truncate grey-text ultra-small">Buenas tardes! En el siguiente enlace</p>
+                      <a href="#!" class="secondary-content email-time"><span class="blue-text ultra-small">2:05 am</span></a>
+                    </li>
+                    <li class="collection-item avatar email-unread">
+                      <span class="circle indigo darken-1">F</span>
+                      <span class="email-title">Facebook.com</span>
+                      <p class="truncate grey-text ultra-small">Tienes una petición de amistad de Jonás</p>
+                      <a href="#!" class="secondary-content email-time"><span class="blue-text ultra-small">1:15 pm</span></a>
+                    </li>
+                    <li class="collection-item avatar email-unread">
+                      <span class="circle light-blue">T</span>
+                      <span class="email-title">Twitter</span>
+                      <p class="truncate grey-text ultra-small">Quizás conozcas a ElRubius por tus recomendaciones</p>
+                      <a href="#!" class="secondary-content email-time"><span class="blue-text ultra-small">8:30 pm</span></a>
+                    </li>
+                    <li class="collection-item avatar email-unread">
+                      <span class="circle green accent-4">GB</span>
+                      <span class="email-title">Gabinete de Comunicación</span>
+                      <p class="truncate grey-text ultra-small">Boletín semanal de noticias y eventos</p>
+                      <a href="#!" class="secondary-content email-time"><span class="blue-text ultra-small">5:18 am</span></a>
+                    </li>
+                    <li class="collection-item avatar email-unread">
+                      <span class="circle red">G</span>
+                      <span class="email-title">Gmail</span>
+                      <p class="truncate grey-text ultra-small">Tienes 5 correos pendientes</p>
+                      <a href="#!" class="secondary-content email-time"><span class="blue-text ultra-small">6:38 am</span></a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="email-details" class="col s12 m7 l7 card-panel">
+                  <p class="email-subject truncate">UYA_20211139262525: Tutorías de los días 2, 8 y 9 de junio.<span class="email-tag grey lighten-3">inbox</span> <span class="email-tag  light-blue lighten-4">projects</span> <i class="mdi-action-star-rate yellow-text text-darken-3 right"></i>
+                  </p>
+                  <hr class="grey-text text-lighten-2">
+                  <div class="email-content-wrap">
+                    <div class="row">
+                      <div class="col s10 m10 l10">
+                        <ul class="collection">
+                          <li class="collection-item avatar">
+                            <span class="circle light-blue">I</span>
+                            <span class="email-title">Isabel Sánchez Berriel</span>
+                            <p class="truncate grey-text ultra-small">para mí</p>
+                            <p class="grey-text ultra-small">Ayer</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col s2 m2 l2 email-actions">
+                        <a role="button" aria-label="Responder." href="#!"><span><i class="mdi-content-reply"></i></span></a>
+                        <a role="button" aria-label="Más opciones." href="#!"><span><i class="mdi-navigation-more-vert"></i></span></a>
+                      </div>
+                    </div>
+                    <div class="email-content">
+                      <p>Buenos días,</p>
+                      <p>las tutorías de los días: 2, 8 y 9 de junio se han tenido que trasladar a horario de tarde.</p>
+                      <p>Las pueden consultar en el horario de tutorías del campus virtual.</p>
+                      <p>Saludos!
+                        <br>Isabel Sánchez Berriel</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="email-content-wrap">
+                    <div class="row">
+                      <div class="col s10 m10 l10">
+                        <ul class="collection">
+                          <li class="collection-item avatar">
+                            <span class="circle light-blue">U</span>
+                            <span class="email-title">ULL</span>
+                            <p class="truncate grey-text ultra-small">para mí</p>
+                            <p class="grey-text ultra-small">6:10 pm</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col s2 m2 l2 email-actions">
+                        <a role="button" aria-label="Responder." href="#!"><span><i class="mdi-content-reply"></i></span></a>
+                        <a role="button" aria-label="Más opciones." href="#!"><span><i class="mdi-navigation-more-vert"></i></span></a>
+                      </div>
+                    </div>
+                    <div class="email-content">
+                      <p>Buenas tardes,</p>
+                      <p>Este viernes 4 de junio a las 17 h celebramos la Muestra de proyectos en el marco del Ecofest Festival de la Sostenibilidad y esperamos tu asistencia. Puedes seguirla de dos formas:</p>
+                      <p>a) Streaming: https://docs.google.com/forms/d/e/1FAIpQLSd9ZFAQhd6jvt/viewform
+                        <br><br>b) Presencial: Las plazas presenciales se han agotado rápidamente en la web, no obstante, hemos habilitado una sala paralela para la comunidad de Ingenia, si te apetece acudir de manera presencial, https://plazagrande.es/tribuna-eventos/webinars/viernes-pildoras-verdes-ecofest-2021/</p>
+                      <p>Saludos</p>
+                    </div>
+                  </div>
+                  <div class="email-reply">
+                    <div class="row">
+                      <div class="col s4 m4 l4 center-align">
+                        <a role="button" aria-label="Responder." href="!#"><i class="mdi-content-reply"></i></a>
+                        <p class="ultra-small">Responder</p>
+                      </div>
+                      <div class="col s4 m4 l4 center-align">
+                        <a role="button" aria-label="Reenviar." href="!#"><i class="mdi-content-forward"></i></a>
+                        <p class="ultra-small">Reenviar</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Compose Email Trigger -->
+            <div class="fixed-action-btn" style="bottom: 50px; right: 19px;" role="button" aria-expanded="false" aria-label="Abre ventana para escribir email.">
+              <a class="btn-floating btn-large red modal-trigger" href="#modal1">
+                <i class="mdi-editor-border-color"></i>
+              </a>
+            </div>
+
+            <!-- Compose Email Structure -->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <nav class="red">
+                  <div class="nav-wrapper">
+                    <div class="left col s12 m5 l5">
+                      <ul>
+                        <li><a role="button" aria-label="Volver atrás" href="#!" class="email-menu"><i class="modal-action modal-close  mdi-hardware-keyboard-backspace"></i></a>
+                        </li>
+                        <li><a href="#!" class="email-type">Mensaje nuevo</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col s12 m7 l7 hide-on-med-and-down">
+                      <ul class="right">
+                        <li><a role="button" aria-label="Adjuntar archivo" href="#!"><i class="mdi-editor-attach-file"></i></a>
+                        </li>
+                        <li><a role="button" aria-label="Enviar correo" href="#!"><i class="modal-action modal-close  mdi-content-send"></i></a>
+                        </li>
+                        <li><a role="button" aria-label="Más opciones" href="#!"><i class="mdi-navigation-more-vert"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </nav>
+              </div>
+              <div class="model-email-content">
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="to_email" type="email" class="validate">
+                        <label role="textbox" aria-label="Correo del destinatario del mensaje" for="to_email">Para</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="subject" type="text" class="validate">
+                        <label role="textbox" aria-label="Asunto del mensaje" for="subject">Asunto</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="compose" class="materialize-textarea" length="500"></textarea>
+                        <label role="textbox" aria-label="Contenido del mensaje"for="compose">Mensaje</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--end container-->
+
+    </section>
+    <!-- END CONTENT -->
+  </div>
+  <!-- END WRAPPER -->
+
+  </div>
+  <!-- END MAIN -->
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- ================================================
+    Scripts
+    ================================================ -->
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="../js/firebase.js"></script>
+    <script src="js/au.js"></script>
+	
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>    
+    <!--materialize js-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="js/plugins.js"></script>
+</body>
+
+</html>
